@@ -1,10 +1,21 @@
 export default {
   global: {
-    componenteFormativo: 'Diagnóstico de circuitos electrónicos',
+    componenteFormativo:
+      'Gestión y suministro de tarjetas para productos electrónicos.',
     descripcionCurso:
-      'En este componente formativo se tratan conceptos relacionados con las herramientas utilizadas en el diagnóstico de circuitos electrónicos, su uso adecuado, normas aplicadas y los insumos necesarios para emitir un concepto acertado del estado de un producto electrónico.',
+      'Dentro de los aspectos contemplados en el desarrollo de productos electrónicos, se encuentra la gestión y suministro de tarjetas, en los cuales se administra y se revisa la producción, la atención al cliente y el suministro final. Por lo tanto, la manufacturación, el ensamble, las herramientas y la documentación del proceso, son fases importantes; en las que además se utiliza mucho el idioma inglés.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
+    imagenesDecorativasBanner: [
+      {
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/correcto.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/portada/nota.svg'),
+      },
+    ],
   },
   menuPrincipal: {
     menu: [
