@@ -10,6 +10,10 @@
     p.mt-4(data-aos="fade-up") Después de haber concluido las etapas de concepción y diseño de las tarjetas de circuitos impresos, se llegan a las etapas de fabricación, producción y distribución. Para el futuro tecnólogo en desarrollo de productos electrónicos, esta es una faceta importante de su aprendizaje, por lo que comprenderá la gestión que deberá aplicar en el desarrollo de las tarjetas de circuitos impresos.
     p.mt-4(data-aos="fade-up") Por ello, se hace fundamental el comprender la aplicación de conceptos de calidad para la aseguranza de productos con estándares calificados, considerando las necesidades del cliente. Así mismo, la aplicación de los principios de administración es de alta incidencia, los cuales se pueden apreciar en la siguiente figura.
 
+    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
+        h5 Figura 1.
+        span <em>Prinicipios de la administración</em>
+
     .row.justify-content-center.align-items-center.tarjeta--azul-custom.mb-0.p-4.pt-5
       .col-md-10.col-lg-8.col-12(data-aos="fade-down")
         ImagenInfografica.color-acento-contenido

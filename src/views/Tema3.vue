@@ -36,11 +36,36 @@
       h2 3.1 Modelos de aprovisionamiento
 
     p.mt-4(data-aos="fade-up") Los modelos en que se basa la planificación de aprovisionamiento se agrupan en dos categorías principales, dependiendo de si la demanda es dependiente o independiente. A continuación, se presenta una breve explicación de cada uno de ellos, según INEAF (2021).
+    
+    .row.justify-content-center.align-items-center.mb-4.color-tabs2-2(data-aos="fade-left")
+      .col-md-6.col-12.px-5
+        .h4.mb-4.mt-4.text-white Modelos para reaprovisionamiento NO programado
+        p.text-white Este modelo se presenta cuando la demanda es de tipo independiente, generada como consecuencia de las decisiones de muchos actores ajenos a la cadena logística, como lo son los clientes o consumidores.  A su vez los modelos no programados se clasifican en otras dos categorías.
+      .col-md-6.col-12
+        .row
+          .col.mb-2
+            a.boton.color-acento-botones.indicador__container.me-md-3(@click="modal2 = true")
+              p.mb-0.text-center Modelos de reaprovisionamiento periódico, SRP
+              .indicador--click(v-if="mostrarIndicador")
+          .col.mb-2
+            a.boton.color-acento-botones.indicador__container(@click="modal3 = true")
+              p.mb-0.text-center Modelos de reaprovisionamiento continuo, SRC
+    
+    .row.justify-content-center.align-items-center.mb-4.color-tabs2-2(data-aos="fade-left")
+      .col-md-6.col-12.px-5
+        .h4.mb-4.mt-4.text-white Modelos para reaprovisionamiento programado
+        p.text-white Modelos que son generados por un software informático de control de producción y/o ventas en atención a que se revisan con una demanda de tipo dependiente. Los requerimientos de reaprovisionamiento se establecen por MRP o DRP que utilizan técnicas de optimización o simulación.
+      .col-md-6.col-12
+        .row
+          .col.mb-2
+            a.boton.color-acento-botones.indicador__container.me-md-3.d-grid.gap-2(@click="modal4 = true")
+              p.mb-0.text-center MRP
+              .indicador--click(v-if="mostrarIndicador")
+          .col.mb-2
+            a.boton.color-acento-botones.indicador__container.d-grid.gap-2(@click="modal5 = true")
+              p.mb-0.text-center DRP
 
-    figure.mb-5(data-aos="flip-left")
-      img(src='@/assets/curso/temas/tema3/imagen-20.svg', alt='Texto que describa la imagen')
-
-    p.mt-4(data-aos="fade-up") Las estrategias de aprovisionamiento son importantes en la cadena de una empresa para su organización, desempeño y atención a la operación en redundancia del servicio al cliente; con mejor atención, rápida respuesta y mantenimiento preventivo o correctivo. Dentro de las metodologías en aplicación se usa mucha la R3 alemana y las empresas de vehículos están utilizando metodologías con Internet.
+    p.mt-5(data-aos="fade-up") Las estrategias de aprovisionamiento son importantes en la cadena de una empresa para su organización, desempeño y atención a la operación en redundancia del servicio al cliente; con mejor atención, rápida respuesta y mantenimiento preventivo o correctivo. Dentro de las metodologías en aplicación se usa mucha la R3 alemana y las empresas de vehículos están utilizando metodologías con Internet.
 
     Separador 
     #t_1_1.titulo-segundo.color-acento-contenido.mt-4(data-aos="fade-right")
@@ -94,6 +119,17 @@
         p Finalmente, la incerteza es el término económico que ayuda a la clasificación de las escalas de producción de un sector o de una empresa.
       
 
+    ModalA(:abrir-modal.sync="modal2").bgr_9
+      p <strong>Modelos de reaprovisionamiento periódico, SRP,</strong> se caracteriza porque la solicitud o pedido se origina por períodos previamente determinados. La cantidad a requerir, será la que restablece el nivel máximo de inventarios o nivel objetivo. 
+
+    ModalA(:abrir-modal.sync="modal3").bgr_9
+      p <strong>Modelos de reaprovisionamiento continuo, SRC,</strong> se caracterizan por el lanzamiento de una orden de pedido cuando los inventarios decrecen hasta una cierta medida o "punto de pedido". El volumen a solicitar es el "lote económico de compra".
+
+    ModalA(:abrir-modal.sync="modal4").bgr_9
+      p.text-bold La planificación de los materiales o MRP utiliza un Sistema de Planificación y Administración, usualmente asociada, con un programa basado en la planeación de la producción y el sistema de control de inventarios.
+
+    ModalA(:abrir-modal.sync="modal5").bgr_9
+      p.text-bold Planificación de los Recursos de Distribución o Distribution Resource Planning (DRP) es un método usado en la administración de negocios para planificar la emisión de órdenes de productos dentro de la cadena de suministro. 
 
 </template>
 
@@ -101,7 +137,12 @@
 export default {
   name: 'Tema3',
   data: () => ({
-    // variables de vue
+    modal1: false,
+    modal2: false,
+    modal3: false,
+    modal4: false,
+    modal5: false,
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -114,4 +155,12 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+
+.bgr_9 .modal-a__content
+  background-color: #FFEA99
+
+.modal-a__close-btn
+  color: #FFFF
+  background-color: #3C0060
+</style>

@@ -8,12 +8,16 @@ export default {
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/correcto.svg'),
-      },
-      {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/nota.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/florero.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/correcto.svg'),
       },
     ],
   },
@@ -111,6 +115,11 @@ export default {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
+      },
+      {
+        icono: 'fas fa-download',
+        titulo: 'Descargar PDF',
+        download: 'downloads/CFA_13_224204.pdf',
       },
       {
         icono: 'fas fa-download',
