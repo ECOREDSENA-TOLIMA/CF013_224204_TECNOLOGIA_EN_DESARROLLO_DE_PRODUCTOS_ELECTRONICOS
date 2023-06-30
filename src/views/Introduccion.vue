@@ -16,7 +16,7 @@
         figure
           img(src='@/assets/curso/temas/introduccion/intro.svg', alt='Texto que describa la imagen')
       .col-12.col-md-7
-        p Un ejemplo de este último fue la elaboración de las medallas de oro, plata y bronce utilizadas en los pasados juegos olímpicos realizados en Tokio, Japón. Utilizaron las tarjetas de circuitos impresos de miles de equipos electrónicos, en especial teléfonos móviles inteligentes, cámaras y otros dispositivos .
+        p Un ejemplo de este último fue la elaboración de las medallas de oro, plata y bronce utilizadas en los pasados juegos olímpicos realizados en Tokio, Japón. Utilizaron las tarjetas de circuitos impresos de miles de equipos electrónicos, en especial teléfonos móviles inteligentes, cámaras y otros dispositivos.
         br
         br
         .cajon.color-primario.p-4.d-flex.flex-wrap(style="background-color: #D9F8F2" data-aos="fade-right")
