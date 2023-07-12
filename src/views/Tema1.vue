@@ -12,7 +12,7 @@
 
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
         h5 Figura 1.
-        span <em>Prinicipios de la administración</em>
+        span <em>Principios de la administración</em>
 
     .row.justify-content-center.align-items-center.tarjeta--azul-custom.mb-0.p-4.pt-5
       .col-md-10.col-lg-8.col-12(data-aos="fade-down")
@@ -125,7 +125,7 @@
         .col-md-6.mb-4.mb-md-0
           p En la fabricación de tarjetas de circuitos impresos es común utilizar placas multicapas, las cuales pueden llevar el mismo circuito o diferentes circuitos. 
           p Se utilizan para aprovechamiento de espacio, conexiones y mejor conducción, en donde se tienen en cuenta  las normas de fabricación de los estándares.
-          p Otra razón para su uso es aumentar la productividad, especialmente con el uso de máquinas robotizadas de tomar y colocar (pick and place). 
+          p Otra razón para su uso es aumentar la productividad, especialmente con el uso de máquinas robotizadas de tomar y colocar #[i (pick and place)]. 
         .col-md-6
           figure
             img(src='@/assets/curso/temas/tema1/imagen-6.svg', alt='Texto que describa la imagen')
@@ -174,7 +174,7 @@
       img(src='@/assets/curso/temas/tema1/imagen-9.svg', alt='Texto que describa la imagen')
     
     Separador
-    #t_1_1.titulo-segundo.color-acento-contenido.mt-4(data-aos="fade-right")
+    #t_1_2.titulo-segundo.color-acento-contenido.mt-4(data-aos="fade-right")
       h2 1.2 Manejo de inglés técnico
 
     .row.mb-3.mt-4
@@ -208,7 +208,7 @@
         .row
           .col-12.col-lg-7(data-aos="fade-down-right")
             p Las hojas de datos son la expresión de las diferentes características de un producto, sea un componente, una tarjeta de circuito impreso de uso regular o un dispositivo. En el caso de los componentes permiten seleccionar el tipo de componentes a utilizar en la tarjeta, según las características o propiedades que ofrece y las dimensiones, para poder ensamblarlo en la placa del circuito. Los programas de diseño utilizan estas hojas de datos u hojas técnicas para incorporarlos a sus bibliotecas o librerías y poder realizar las simulaciones o archivos de diseño.
-            p.mt-3 Las hojas de datos u hojas técnicas de los fabricantes ,sean de país de origen inglés o de otro país, son por lo general en idioma inglés, por lo cual es importante el aprendizaje del idioma, principalmente en su aspecto técnico para ser un eficiente desarrollador de tarjetas de circuitos impresos, las hojas de datos de resistencias, transistores, diodos, bobinas y condensadores así como tiristores están en lengua inglesa.
+            p.mt-3 Las hojas de datos u hojas técnicas de los fabricantes, sean de país de origen inglés o de otro país, son por lo general en idioma inglés, por lo cual es importante el aprendizaje del idioma, principalmente en su aspecto técnico para ser un eficiente desarrollador de tarjetas de circuitos impresos, las hojas de datos de resistencias, transistores, diodos, bobinas y condensadores así como tiristores están en lengua inglesa.
           .col-4.col-lg-5.offset-4.offset-lg-0(data-aos="zoom-in")
             figure
               img(src='@/assets/curso/temas/tema1/imagen-12.png', alt='Texto que describa la imagen')
@@ -218,10 +218,15 @@
             figure
               img(src='@/assets/curso/temas/tema1/imagen-13.png', alt='Texto que describa la imagen')
           .col-12.col-lg-7(data-aos="fade-down-right")
-            p Los proveedores de un cliente que requiere una tarjeta de circuitos impresos es el fabricante de estas, quien a su vez sus proveedores son los fabricantes o distribuidores de las placas, de los componentes, de las líneas de cobre u otro material conductor, de todas las materias primas y/o sustancias utilizadas para la preparación, producción, ensamble y montaje de las PBCs.
+            p Los proveedores de un cliente que requiere una tarjeta de circuitos impresos es el fabricante de estas, quien a su vez sus proveedores son los fabricantes o distribuidores de las placas, de los componentes, de las líneas de cobre u otro material conductor, de todas las materias primas y/o sustancias utilizadas para la preparación, producción, ensamble y montaje de las PCBs.
             p.mt-3 Es posible que varios de los proveedores de componentes o de placas para fabricar y/o desarrollar las tarjetas de circuitos impresos, sean de origen americano, chino, japonés o europeo, entre algunos. Sin embargo el lenguaje comercial es el idioma ingles, afirmando la importancia de que el futuro tecnólogo tenga las competencias para leer, escribir y comprender en dicho idioma, y así asegurar que las órdenes y recepción de pedidos sean las correctas, que la aclaración de dudas, en caso de presentarse, sean eficaces y adecuadas, y que incluso para dar las gracias o para solicitar algún tipo de garantía sea precisa.
           
-    p.mt-4 Se había expresado previamente en la documentación, que los archivos digitales hacían parte de esta, desde los archivos físicos que se digitalicen como los circuitos básicos y las posteriores simulaciones o modelos, hasta los archivos que se producen para llevar a las máquinas CAD/CAM o a las máquinas de tomar y colocar. Los archivos más importantes y también los más utilizados entre los fabricantes son los archivos GERBER.
+    Separador
+    #t_1_3.titulo-segundo.color-acento-contenido.mt-4(data-aos="fade-right")
+      h2 1.3 Archivos de fabricación de productos electrónicos
+
+    p.mt-4.mb-4 Se había expresado previamente en la documentación, que los archivos digitales hacían parte de esta, desde los archivos físicos que se digitalicen como los circuitos básicos y las posteriores simulaciones o modelos, hasta los archivos que se producen para llevar a las máquinas CAD/CAM o a las máquinas de tomar y colocar. 
+    p.mb-5 Los archivos más importantes y también los más utilizados entre los fabricantes son los archivos GERBER.
 
     .row.justify-content-center.align-items-center.mb-4.mt-5
       .col-md-10.col-12(data-aos="fade-right")

@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p A continuación, se describe el tema principal del Componente formativo Gestión y suministro de tarjetas para productos electrónicos, basado en la gestión y suministro de tarjetas, en los cuales se administra y se revisa la producción, la atención al cliente y el suministro final. Por lo tanto, la manufacturación, el ensamble, las herramientas y la documentación del proceso, son fases importantes para la obtención adecuada del producto final siempre generando un análisis correcto de la cadena de suministro y sus diferentes eslabones.
+    p A continuación, se describe el tema principal del componente formativo gestión y suministro de tarjetas para productos electrónicos, basado en la gestión y suministro de tarjetas, en los cuales se administra y se revisa la producción, la atención al cliente y el suministro final. Por lo tanto, la manufacturación, el ensamble, las herramientas y la documentación del proceso, son fases importantes para la obtención adecuada del producto final siempre generando un análisis correcto de la cadena de suministro y sus diferentes eslabones.
 
     .row.justify-content-center
       .col-lg-10.mb-5

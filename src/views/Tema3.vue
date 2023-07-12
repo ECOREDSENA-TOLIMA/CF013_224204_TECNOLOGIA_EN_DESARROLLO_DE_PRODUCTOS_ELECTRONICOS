@@ -78,7 +78,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/imagen-21.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 El modelo de gestión Just InTime (justo a tiempo en español), es un método o forma de complementar los tipos de aprovisionamiento, que se ha convertido en el utilizado por un alto número de empresas, contribuyendo a su desarrollo. Han propiciado que muchos se interesen por conocer esta técnica y ponerla en práctica.
+            p.mb-0 El modelo de gestión #[i Just InTime] (justo a tiempo en español), es un método o forma de complementar los tipos de aprovisionamiento, que se ha convertido en el utilizado por un alto número de empresas, contribuyendo a su desarrollo. Han propiciado que muchos se interesen por conocer esta técnica y ponerla en práctica.
 
     .row.mb-5
       .col-12.col-md-8.mb-3.mb-md-0(data-aos="fade-right")
@@ -87,7 +87,7 @@
           .cajon.bgr.mb-3.mt-4.p-3.d-flex.flex-wrap
             img.mb-4.mb-lg-4.col-lg-1.mx-auto(src="@/assets/curso/temas/tema2/decorador-5.svg" style="max-width: 70px")
             .col-md-11.ps-lg-4
-              p.mb-0 Las ventajas del modelo Just InTime son sus resultados en las reducciones de todas las formas de inventario, las cuales se obtienen por medio de métodos mejorados, no solo de compras sino también de programación de la producción.
+              p.mb-0 Las ventajas del modelo #[i Just InTime] son sus resultados en las reducciones de todas las formas de inventario, las cuales se obtienen por medio de métodos mejorados, no solo de compras sino también de programación de la producción.
       .col-12.col-md-4
         figure
           img(src="@/assets/curso/temas/tema3/imagen-22.png", alt="Texto que describa la imagen")
@@ -114,7 +114,7 @@
     .row.mb-2.mt-5
       .col-12.col-md-6.mb-3.mb-md-0(data-aos="fade-left")
         .cajon.bgr.p-4.mb-1
-          p.mb-0 Para la evaluación económica de las escalas de producción se emplea el algoritmo Milawa del software Whittle, extrayendo archivos necesarios para comenzar la implementación del modelo en Isight, programa que analiza las capacidades de operación, producción y otras.
+          p.mb-0 Para la evaluación económica de las escalas de producción se emplea el algoritmo Milawa del #[i software] Whittle, extrayendo archivos necesarios para comenzar la implementación del modelo en Isight, programa que analiza las capacidades de operación, producción y otras.
       .col-12.col-md-6(data-aos="fade-right")
         p Finalmente, la incerteza es el término económico que ayuda a la clasificación de las escalas de producción de un sector o de una empresa.
       

@@ -28,14 +28,36 @@
 
     .titulo-sexto.color-acento-contenido.mb-5.mt-5(data-aos="fade-down-right")
         h5 Figura 3.
-        span <em>Consideraciones para la factibilidad de fabricación</em>
+        span <em>Características de un proveedor</em>
 
     figure.mb-5(data-aos="flip-left")
       img(src='@/assets/curso/temas/tema2/imagen-17.svg', alt='Texto que describa la imagen')
 
+    .row.justify-content-around.align-items-center
+      .col-12.col-md-10
+        .tarjeta.color-acento-contenido.mt-5.p-4.mb-5(data-aos="fade-down")
+          .row.justify-content-around.align-items-center
+            .col-2.col.col-lg-2.px-5
+              img(src="@/assets/curso/temas/tema2/imagen-18.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.lg-4.mb-3.mb-sm-0.p-4
+                  p.text-bold El nivel de inventarios debe estar referenciado con:
+                .col-lg-4
+                  ul.lista-ul--color.text-bold
+                    li 
+                    i.lista-ul__vineta
+                    | El flujo de producción. 
+                    li
+                    i.lista-ul__vineta
+                    | Los pedidos de los clientes.  
+                    li
+                    i.lista-ul__vineta
+                    | La producción interna. 
+                        
     .row.mb-2
       .col-12.col-md-5(data-aos="fade-left")
-        p Una buena medida para una apropiada gestión de los inventarios es utilizar la metodología lean manufacturing, que le permite el control de inventarios en producción, almacenamiento y compras.
+        p Una buena medida para una apropiada gestión de los inventarios es utilizar la metodología Lean #[i manufacturing], que le permite el control de inventarios en producción, almacenamiento y compras.
       .col-12.col-md-7.mb-3.mb-md-0(data-aos="fade-right")
         .cajon.bgr.p-4.mb-1
           p.mb-0 Actualmente no se utiliza la metodología de grandes almacenamientos de inventarios, sino una compra controlada de los elementos de uso cotidiano al igual que con los inventarios de componentes y elementos auxiliares de menor consumo para fabricación de las tarjetas de circuitos impresos.

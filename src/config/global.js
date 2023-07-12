@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Gestión y suministro de tarjetas para productos electrónicos.',
+      'Gestión y suministro de tarjetas para productos electrónicos',
     descripcionCurso:
       'Dentro de los aspectos contemplados en el desarrollo de productos electrónicos, se encuentra la gestión y suministro de tarjetas, en los cuales se administra y se revisa la producción, la atención al cliente y el suministro final. Por lo tanto, la manufacturación, el ensamble, las herramientas y la documentación del proceso, son fases importantes; en las que además se utiliza mucho el idioma inglés.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
@@ -137,29 +137,21 @@ export default {
     {
       tema: 'Introducción',
       referencia:
-        'TV Azteca Deportes. (2021). <em>¿De qué están hechas las medallas olímpicas de Tokyo 2020?</em> (Video). YouTube. https://www.youtube.com/watch?v=BG57cs78JxA',
+        'TV Azteca Deportes. (2021). <em>¿De qué están hechas las medallas olímpicas de Tokyo 2020?</em> (Video).',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=BG57cs78JxA',
     },
     {
       tema: 'Documentación de fabricación',
       referencia:
-        'ALTIUM DESIGNER. (2017). <em>Documentación de fabricación.</em> https://resources.altium.com/es/p/manufacturing-outputs-datasheet',
+        'ALTIUM DESIGNER. (2017). <em>Documentación de salida para la fabricación de circuitos impresos.</em>',
       tipo: 'PDF',
       link: 'https://resources.altium.com/es/p/manufacturing-outputs-datasheet',
     },
     {
       tema: 'Diseño y fabricación de PCBs',
       referencia:
-        'Bellidoz, M. (2019). <em>Diseño y fabricación de PCBs.</em> https://www.dte.us.es/docencia/etsii/gii-ic/laboratorio-de-desarrollo-hardware/temas/Tema5NormasPCB/at_download/file',
-      tipo: 'Presentación',
-      link:
-        'https://www.dte.us.es/docencia/etsii/gii-ic/laboratorio-de-desarrollo-hardware/temas/Tema5NormasPCB/at_download/file',
-    },
-    {
-      tema: 'Normas básicas y recomendaciones en el diseño de PCBs.',
-      referencia:
-        'Bellidoz, M. (2015). <em>Normas básicas y recomendaciones en el diseño de PCBs.</em> https://www.dte.us.es/docencia/etsii/gii-ic/laboratorio-de-desarrollo-hardware/temas/Tema5NormasPCB/at_download/file',
+        'Bellidoz, M. (2019). <em>Normas Básicas y Recomendaciones en el Diseño de PCBs.</em>',
       tipo: 'Presentación',
       link:
         'https://www.dte.us.es/docencia/etsii/gii-ic/laboratorio-de-desarrollo-hardware/temas/Tema5NormasPCB/at_download/file',
@@ -253,7 +245,7 @@ export default {
       link: 'https://dle.rae.es/documentaci%C3%B3n?m=form',
     },
     {
-      referencia: 'Wikipedia (2021). <em>Circutio impreso.</em>',
+      referencia: 'Wikipedia (2021). <em>Circuito impreso.</em>',
       link: 'https://es.wikipedia.org/wiki/Circuito_impreso',
     },
   ],
@@ -277,40 +269,47 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Ángela Rocío Sánchez Ruiz',
-          cargo: 'Experto Temático',
-          centro: 'Centro de Electricidad, Electrónica y Telecomunicaciones',
-        },
-        {
-          nombre: 'Miroslava González H.',
-          cargo: 'Diseñador y Evaluador Instruccional',
-          centro: 'Centro de Gestión Industrial',
-        },
-        {
-          nombre: 'Juan Gilberto Giraldo Cortés',
-          cargo: 'Diseñador Instruccional',
-          centro: '',
-        },
-        {
-          nombre: 'Álix Cecilia Chinchilla Rueda',
-          cargo: 'Evaluadora Instruccional',
-          centro: 'Centro de Gestión Industrial',
-        },
-        {
-          nombre: 'Viviana Esperanza Herrera Quiñones',
-          cargo: 'Asesora Metodológica',
-          centro: 'Centro de Comercio y Servicios',
-        },
-        {
-          nombre: 'Rafael Neftalí Lizcano',
-          cargo: 'Asesor Pedagógico',
+          nombre: 'Andrés Aurelio Alarcón Tique ',
+          cargo: 'Experto Técnico ',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Regional Distrito Capital Centro de Electricidad,  Electrónica y Telecomunicaciones.',
         },
         {
-          nombre: 'Darío González',
-          cargo: 'Revisión y Corrección de Estilo',
-          centro: 'Regional Tolima - Centro Agropecuario La Granja',
+          nombre: 'Miroslava González Hernández ',
+          cargo: 'Diseñador y Evaluador Instruccional ',
+          centro: 'Regional Distrito Capital Centro de Gestión Industrial.',
+        },
+        {
+          nombre: 'Sergio Augusto Ardila Córtes',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus ',
+          cargo: 'Revisora Metodológica y Pedagógica ',
+          centro:
+            'Regional Distrito Capital Centro para la Industria de la Comunicación Gráfica.',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes ',
+          cargo: 'Asesor Pedagógico ',
+          centro:
+            'Regional Santander Centro Industrial del Diseño y la Manufactura.',
+        },
+        {
+          nombre: 'Sandra Patricia Hoyos Sepúlveda ',
+          cargo: 'Corrección de Estilo ',
+          centro: 'Regional Distrito Capital Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Jhon Jairo Rodríguez Pérez ',
+          cargo: 'Diseñador y Evaluador Instruccional ',
+          centro: 'Regional Distrito Capital Centro de Diseño y Metrología.',
+        },
+        {
+          nombre: 'Viviana Esperanza Herrera Quiñonez',
+          cargo: 'Asesora Metodológica',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
       ],
     },
@@ -318,12 +317,12 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'José Jaime Luis Tang',
+          nombre: 'José Jaime Luis Tang Pinzón',
           cargo: 'Diseñador Web',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Francisco José Vásquez Suárez',
+          nombre: 'Francisco Javier Vásquez Suárez',
           cargo: 'Desarrollador Fullstack',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
@@ -334,11 +333,16 @@ export default {
         },
         {
           nombre: 'Nelson Iván Vera Briceño',
-          cargo: 'Animador y Producción Audiovisual',
+          cargo: 'Producción Audiovisual',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Sebastián Trujillo Afanador',
+          nombre: 'Oleg Litvin',
+          cargo: 'Animador ',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Cristian Mauricio Otálora Clavijo',
           cargo: 'Actividad Didáctica',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
