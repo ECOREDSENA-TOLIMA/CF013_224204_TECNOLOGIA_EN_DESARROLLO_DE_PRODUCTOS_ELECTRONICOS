@@ -1,1 +1,1 @@
-module.exports = 'Diagnóstico de circuitos electrónicos'
+module.exports = 'Gestión y suministro de tarjetas para productos electrónicos'
